@@ -1,0 +1,6 @@
+1- Entrar no site oficial e instalar tudo
+2- Mudar a senha do servidor com:
+sudo -u postgres psql
+  ALTER USER postgres WITH PASSWORD '#NovaSenha';
+    \q
+3- Crie um server clickando com o botão esquedo em Server no pgAdmin -> register -> servers -> coloque o nome, localhost em host name/adress caso esteja no servidor local, e a senha
