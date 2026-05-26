@@ -1,0 +1,34 @@
+    NUMÉRICOS:
+SMALLINT            2b      2bytes
+INTEGER             4b      int
+BIGINT              8b      long int
+
+REAL                4b      float
+DOUBLE PRECISION    8b      double
+
+SERIAL              4b      uma int que se auto incrementa
+BIGSERIAL           8b      um long int que se auto incrementa
+
+-------------------------------------------------------------------
+
+    CARACTERE:
+CHAR(x)         string que cria espaço em branco; bom para tamanho fixo
+VARCHAR(x)      string sem criar um espaço em branco
+TEXT            comprimeno variável e ilimitado
+
+-------------------------------------------------------------------
+
+    DATA e HORA:
+TIMESTAMP       data e hora
+DATE            datas com precisão de 1 dia
+TIME            horários do dia
+
+-------------------------------------------------------------------
+
+    BOOLEANO:
+BOOLEAN         True    False
+                't'     'f'
+                'true'  'false'
+                'y'     'n'
+                'yes'   'no'
+                '1'     '0'
