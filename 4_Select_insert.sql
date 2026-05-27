@@ -12,3 +12,6 @@ SELECT * FROM usuarios WHERE nome LIKE 'A%' OR 'a%';
 
 --busca em todos os casos que o nome é chuchu
 SELECT * FROM usuarios WHERE nome = 'chuchu';
+
+--busca só o nome de usuarios
+SELECT nome FROM usuarios;
