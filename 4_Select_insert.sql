@@ -20,3 +20,13 @@ SELECT nome FROM usuarios;
 
 --busca o nome o email de usuarios
 SELECT nome, email FROM usuarios.
+
+--                                 entre
+SELECT * FROM usuarios WHERE idade BETWEEN 18 AND 29;
+
+--                                 seja 18, 20 ou 40
+SELECT * FROM usuarios WHERE idade IN(18, 30, 40);
+
+--                                    está ou nn vazia
+SELECT * FORM usuarios WHERE profisão IS NULL;
+SELECT * FORM usuarios WHERE profisão IS NOT NULL;
