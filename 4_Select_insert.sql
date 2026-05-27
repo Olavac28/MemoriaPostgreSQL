@@ -9,6 +9,8 @@ INSERT INTO usuarios(nome, email) values
 
 --busca em todos os casos onde 'A' ou 'a' é a primeira letra do nome
 SELECT * FROM usuarios WHERE nome LIKE 'A%' OR 'a%';
+--busca em todos os casos onde 'A' ou 'a' é a ultima letra do nome
+SELECT * FROM usuarios WHERE nome LIKE '%A' OR '%a';
 
 --busca em todos os casos que o nome é chuchu
 SELECT * FROM usuarios WHERE nome = 'chuchu';
