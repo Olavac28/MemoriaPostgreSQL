@@ -15,3 +15,6 @@ SELECT * FROM usuarios WHERE nome = 'chuchu';
 
 --busca só o nome de usuarios
 SELECT nome FROM usuarios;
+
+--busca o nome o email de usuarios
+SELECT nome, email FROM usuarios.
