@@ -6,7 +6,7 @@
 --                            forçar dependencias
 DROP TABLE IF EXISTS produtos CASCADE;
 
-CREATE TABLE usuarios (
+CREATE TABLE IF NOT EXISTS usuarios (
 	id SERIAL PRIMARY KEY,
 	--               não pode ser vazio
 	nome VARCHAR(50) NOT NULL,
