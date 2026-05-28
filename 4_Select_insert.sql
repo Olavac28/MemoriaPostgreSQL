@@ -30,3 +30,6 @@ SELECT * FROM usuarios WHERE idade IN(18, 30, 40);
 --                                    está ou nn vazia
 SELECT * FORM usuarios WHERE profisão IS NULL;
 SELECT * FORM usuarios WHERE profisão IS NOT NULL;
+
+--conta
+SELECT COUNT(*) FROM usuarios WHERE idade = 18;
