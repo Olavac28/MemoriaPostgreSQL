@@ -5,3 +5,4 @@ sudo -u postgres psql
     \q
 ------dentro do pgAdmin-----------
 3- Crie um server clickando com o botão esquedo em Server no pgAdmin -> register -> servers -> coloque o nome, localhost em host name/adress caso esteja no servidor local, e a senha
+4- Como mudar de banco no PSQL tool: use o comando: \c #NomeDoBanco
