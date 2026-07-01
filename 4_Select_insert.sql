@@ -1,6 +1,6 @@
 --insira à usuarios o valor tal
-INSERT INTO usuarios(nome, email) values
-	('chuchu', 'chuchusinho@gmail.com')
+INSERT INTO usuarios(nome, email) VALUES
+	('chuchu', 'chuchusinho@gmail.com'),
 	('abobora', 'abobrinha@gmail.com'),
 	('abacate', 'abacatinho@gmail.com');
 
