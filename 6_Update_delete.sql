@@ -3,6 +3,9 @@ SELECT * FROM usuarios;
 --atualize em usuarios, defina profissao = marceneiro, onde nome = abobora
 UPDATE usuarios SET profissao = 'marceneiro' WHERE nome = 'abobora';
 
+--atualiza mais de um campo de uma vez
+UPDATE usuarios SET profissao = 'marceneiro', nnsei = 'nãoseimsm' WHERE nome = 'abobora';
+
 --                              o valor volta a ser nulo
 UPDATE usuarios SET profissao = NULL WHERE nome = 'abobora';
 
